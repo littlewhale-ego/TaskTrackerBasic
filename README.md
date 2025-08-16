@@ -1,4 +1,4 @@
-# URL for roadmap -> [https://github.com/littlewhale-ego/TaskTrackerBasic](https://roadmap.sh/projects/task-tracker)
+# URL for roadmap -> https://roadmap.sh/projects/task-tracker
 # 📝 Task Tracker Backend
 
 A simple **Task Tracker API** built with **Node.js, Express, and MongoDB**.  
