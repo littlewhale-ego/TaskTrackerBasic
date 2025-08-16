@@ -20,11 +20,9 @@ task-tracker/
 │── server.js
 │── .env
 │── package.json
-│── models/
-│ └── Task.js
-│── routes/
-│ └── taskRoutes.js
-│── controllers/
+│── Task.js
+│── taskRoutes.js
+│── controllers
 └── taskController.js
 
 
