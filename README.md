@@ -34,31 +34,31 @@ task-tracker/
 ```bash
 git clone https://github.com/your-username/task-tracker.git
 cd task-tracker
+```
 
-2. Install dependencies
-npm install
+### 2. Install dependencies
+```npm install```
 
-3. Configure environment variables
+### 3. Configure environment variables
 
-Create a .env file in the project root:
+```Create a .env file in the project root:
 
 MONGO_URI=mongodb://localhost:27017/task-tracker
 PORT=5000
+```
 
-4. Run the server
+### 4. Run the server
 
+```
 For development (with auto-restart):
 
 npm run dev
+```
 
 
-For production:
+### 🛠️ API Endpoints
 
-npm start
-
-🛠️ API Endpoints
-
-Base URL: http://localhost:5000/api/tasks
+```Base URL: http://localhost:5000/api/tasks
 
 1. Get all tasks
 GET /api/tasks
@@ -86,10 +86,10 @@ Request body (JSON):
   "status": "done"
 }
 
-4. Delete a task
+### 4. Delete a task
 DELETE /api/tasks/:id
-
-📦 Dependencies
+```
+### 📦 Dependencies
 
 Express - Web framework
 
